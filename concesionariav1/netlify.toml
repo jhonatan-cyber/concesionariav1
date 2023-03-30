@@ -1,0 +1,8 @@
+[build]
+  command = "yarn build"
+  functions = "dist/functions"
+  publish = "dist/apps/api"
+
+[dev]
+  command = "yarn start:dev"
+  functions = "dist/functions"
